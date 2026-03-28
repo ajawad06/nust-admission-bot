@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# VS Code
+.vscode/
+
+# Mac / Windows system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# FAISS / Vector DB files
+*.index
+*.faiss
+
+# Large model files
+*.bin
+*.pt
+*.onnx
+
+# Streamlit cache
+.streamlit/
