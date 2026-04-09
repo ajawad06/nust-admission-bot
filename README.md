@@ -1,6 +1,6 @@
 # NUST Admission Assistant
 
-**A fully offline, RAG-based chatbot for answering NUST admissions questions - powered entirely by official FAQ data.**  
+**An offline, RAG-based chatbot built for the Local Chatbot Competition 2026 at NUST Islamabad, providing instant, accurate answers to all NUST admissions queries using official FAQ data.**  
 
 ---
 
@@ -14,7 +14,7 @@
 - Hostels & accommodation  
 - Programmes & course details  
 
-All answers are **grounded in NUST's official FAQ data** — no internet, no cloud, no hallucinations.  
+All answers are **grounded in NUST's official FAQ data** - no internet, no cloud, no hallucinations.  
 
 ---
 
@@ -32,7 +32,7 @@ This project uses a **Retrieval-Augmented Generation (RAG)** pipeline:
 
 ## 🗂 Project Structure
 ```bash
-nust-admission-assistant/
+nust-admission-bot/
 │
 ├── data/
 │ └── faqs.json # Official NUST FAQ Q&A pairs
@@ -93,6 +93,8 @@ python build_index.py
 ```bash
 python -m streamlit run app.py
 ```
+
+**6. Open your browser at: http://localhost:8501
 
 ---
 
